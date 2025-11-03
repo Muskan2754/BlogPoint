@@ -1,0 +1,23 @@
+#  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ODc0ZWU0ZTQ2ZWRiMWU0YzI0ZjZlNyIsImlhdCI6MTc1MzY5ODAyMH0.zm4zlNd3s8rtMeXIkU8QQgr3Qu1-76rxW8aPy3a_k_o",
+#Content-Type: application/json
+
+#{
+  ### "password":"12345aA"
+#}
+
+# POST  http://localhost:3000/get-blog
+# Content-Type: application/json
+#eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWM2ZWU5NDI0M2E0YWM0ZDlmMmE5NSIsImlhdCI6MTc1Nzc1NDQ4Nn0.Epaq1gclGtBE8QPHBooxcvTnhjVN-aRMkIkf3qSjO6o
+# {
+#   "blog_id":"Major-Windows-Update-Highlightsc-5RRK0kY1RjWGSVQuJQV"
+# }
+
+//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWM2ZWU5NDI0M2E0YWM0ZDlmMmE5NSIsImlhdCI6MTc1Nzc1NDQzMn0.5xm2PX8iIEaK_ADHrGEh2-JHt39Jmq0Upem199qfJ40",
+POST   http://localhost:3000/user-written-blogs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4YWM2ZWU5NDI0M2E0YWM0ZDlmMmE5NSIsImlhdCI6MTc1Nzc1NDQ4Nn0.Epaq1gclGtBE8QPHBooxcvTnhjVN-aRMkIkf3qSjO6o
+Content-Type: application/json
+
+{
+  "page" : 1,
+  "draft" : true
+}
