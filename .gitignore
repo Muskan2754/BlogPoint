@@ -3,4 +3,13 @@ node_modules/*
 .env
 
 
+
+
+*.json
+
+*.env
+
+firebase-adminsdk-*.json
+
+
 requests.rest
